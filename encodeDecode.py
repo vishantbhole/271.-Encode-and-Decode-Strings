@@ -22,3 +22,6 @@ class Solution:
             res.append(s[j+1:j+1+length])
             i = j + 1 + length
         return res
+
+if __name__ == "__main__":
+    sol = Solution()
