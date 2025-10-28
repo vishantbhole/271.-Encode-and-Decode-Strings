@@ -25,3 +25,16 @@ class Solution:
 
 if __name__ == "__main__":
     sol = Solution()
+    s = ["neet","code","love","you"]
+
+    outputEncoded = sol.encode(s)
+
+    print("Output for encode is : ", outputEncoded)
+    print("Output for decode is : ", sol.decode(outputEncoded))
+    
+    s2 = ["we","say",":","yes"]
+
+    outputEncoded2 = sol.encode(s2)
+
+    print("Output for encode is : ", outputEncoded2)
+    print("Output for decode is : ", sol.decode(outputEncoded2))
